@@ -45,6 +45,14 @@ pizzaJson.map((item, index)=>{
     c('.pizza-area').append( pizzaItem );
 });
 
+
+function finish(){
+    window.location.href = `https://api.whatsapp.com/send?phone=(88)9210-0158&text=Boa Noite, gostaria de pedir 03 pizzas, mussarela(G), calabresa(P) e chocolate (M)`;
+}
+
+
+
+
 // Events in MODAL
 function closeModal() {
     c('.pizzaWindowArea').style.opacity = 0;
